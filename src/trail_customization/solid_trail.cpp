@@ -1,5 +1,3 @@
-#ifndef GEODE_IS_MACOS
-
 #include <Geode/modify/CCDrawNode.hpp>
 #include <Geode/modify/HardStreak.hpp>
 
@@ -33,5 +31,3 @@ class $modify(HardStreak) {
         this->m_isSolid = gay::settings::get_solid_trail();
     }
 };
-
-#endif
